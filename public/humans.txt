@@ -1,0 +1,15 @@
+﻿Автор: Марио Илиев
+Уеб сайт: https://marioiliev.com
+Роля: Реакт уеб програмист
+
+Текущия сайт е 4-то по ред издание като дизайн и съдържание.
+www.marioiliev.com е изготвен изцяло от Марио Илиев (дизайн, програмиране и съдържание).
+
+---------------------------------------------------------------------------------------
+
+Author: Mario Iliev
+Website: http://marioiliev.com
+Role: React web developer
+
+The current website is the 4th release as design and content.
+www.marioiliev.com is made entirely by Mario Iliev (design, programming and content).

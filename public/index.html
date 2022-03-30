@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Mario Iliev - Frontend React, Javascript developer." />
+    <meta name="alexaVerifyID" content="2YsV98Kh4NPkWCO1GEoXn11FdWw" />
+    <meta name="google-site-verification" content="1xje508IcBfDwT7DB-2yNer0I_oAPYR8AKppwpC6Qfg" />
+
+    <meta property="og:url" content="https://marioiliev.com/" />
+    <meta property="og:title" content="React frontend developer - portfolio" />
+    <meta property="og:description" content="Artistic animated website design, presenting a personal portfolio." />
+    <meta property="og:image" content="https://marioiliev.com/images/cover-1200-630.jpg" />
+    <meta property="twitter:image" content="https://marioiliev.com/images/cover-1200-630.jpg" />
+
+    <title>Mario Iliev - Frontend React developer</title>
+
+    <style>
+      html {
+        height: 100%;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+        height: 100%;
+        color: #fff;
+      }
+
+      html,
+      body,
+      #root {
+        overflow: hidden;
+        background-color: #000;
+      }
+
+      *::-moz-selection {
+        background: transparent;
+      }
+
+      *::selection {
+        background: transparent;
+      }
+
+      * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .absolute {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      @-webkit-keyframes spinAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(359deg);
+        }
+      }
+      @keyframes spinAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(359deg);
+        }
+      }
+
+      .spinner {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+        border-radius: 100%;
+        transform: translateZ(0);
+        box-sizing: border-box;
+        border: 2px solid #00bdff;
+        border-left-color: transparent;
+        transition: opacity 0.3s ease;
+      }
+
+      .spinner.animate {
+        display: block;
+        animation: spinAnimation 0.7s infinite linear;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="absolute"></div>
+    <div id="app-spinner" class="spinner animate"></div>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-24516811-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

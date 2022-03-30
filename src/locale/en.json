@@ -1,0 +1,64 @@
+{
+  "PAGE_TITLE": "Mario Iliev - Frontend React developer",
+  "NAME": "Mario Iliev",
+  "MUSIC": "Music",
+  "EFFECTS": "Sound effects",
+  "FULLSCREEN": "Fullscreen",
+  "MENU": {
+    "HOME": "Home",
+    "PORTFOLIO": "Portfolio",
+    "ABOUT": "About",
+    "CONTACT": "Contact"
+  },
+  "INTRO": {
+    "ENTER": "Enter",
+    "DESCRIPTION": "For best experience, please leave the audio on.",
+    "SUB_HEADLINE": "You can disable it easily any time."
+  },
+  "PORTFOLIO": {
+    "MENU": {
+      "SPACE_ART": "Space art",
+      "DIGITAL_ART": "Digital art",
+      "TRADITIONAL_ART": "Traditional art",
+      "WEBSITES": "Websites",
+      "LOGOS": "Logos",
+      "BUSINESS_CARDS": "Business cards"
+    }
+  },
+  "ABOUT": {
+    "DORK_MODE": "Dork mode",
+    "RESUME": "I am a {{years_old}} years old <b>senior frontend React developer</b> with about {{experience}} years of experience in the field.<br /> I had passion for drawing and computers when I was a kid and it grew into a freelance web design career. As a designer I had to gain some frontend knowledge and I got very excited about it. After several years of creating designs and doing frontend I decided to focus my career on programming. I found a great company with an amazing team, that helped me develop my JavaScript skills. At some point {{react_link}} got on my radar and sparked a new light in my programming passion. Now I’m focused on building applications with React and having fun and sense of fulfilment in my professional journey.",
+    "ABOUT_SITE": "This domain was used for my business portfolio as a freelancer. Since I'm not offering freelance services anymore, I decided to create a new website to represent me as a frontend developer. That's why I chose to create an unsual design and challenged myself not to use images, making it entirely with <b>HTML</b>, <b>CSS</b> (Styled Components), <b>React.js</b> (with Hooks) and {{store_me_link}}. <span>Thank you for stopping by!</span>"
+  },
+  "CONTACT": {
+    "PLANET_DESCRIPTION": {
+      "LINKEDIN": "If you want to connect me in <b>LinkedIn</b>.",
+      "GITHUB": "See how rare I upload to <b>GitHub</b>.",
+      "EMAIL": "Wanna drop me an email?",
+      "PHONE": "Something important going on? <br />Call me +359 886 632 811",
+      "DEVIANTART": "If you want to dive in my art era <b>DeviantArt</b>."
+    },
+    "ORBIT_LABELS": {
+      "LINKEDIN": "LinkedIn",
+      "GITHUB": "GitHub",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "DEVIANTART": "DeviantArt"
+    }
+  },
+  "SNAKE_GAME": {
+    "RETRO_SNAKE": "Retro Snake",
+    "MODERN_REACT": "with modern React",
+    "SCORE": "Score",
+    "CLICK_TO_START": "Click to start game",
+    "OR_PRESS_SPACE": "or press space",
+    "PAUSED": "Paused",
+    "PRESS_ESC_TO_CONTINUE": "Press escape to continue",
+    "HIGH_SCORE": "High score",
+    "CLICK_TORESTART": "Click to restart",
+    "CONGRATS_YOU_WON": "Congratulations, You Won!",
+    "CONTROLS": "<span>Pause/Resume</span>: <b>Esc</b> key. <span>Move</span>: Arrows or ''<b>a</b>, <b>w</b>, <b>s</b>, <b>d</b>'' keys"
+  },
+  "MOBILE_UNDER_CONSTRUCTION": "<span>Mobile version is under development.</span> <br />Meanwhile you are welcome to experience the awesomness of the <b>desktop</b> version.",
+  "MOBILE_NOT_READY_REASON": "The desktop design and experience is not adaptable for mobile which will require a development of entirely new mobile dedicated design."
+}

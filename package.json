@@ -1,0 +1,116 @@
+{
+  "name": "marioiliev",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://marioiliev.com",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "i18next": "^21.6.14",
+    "react": "^18.0.0",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^18.0.0",
+    "react-i18next": "^11.16.2",
+    "react-scripts": "^5.0.0",
+    "store-me": "^1.4.7",
+    "styled-components": "^5.3.5",
+    "styled-normalize": "^8.0.7",
+    "toggle-fullscreen": "^0.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest --watchAll",
+    "test-pre-commit": "jest --watchAll=false",
+    "dev": "cross-env npm-run-all --parallel start test",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-eval": 0,
+      "no-var": "error",
+      "curly": "error",
+      "indent": [
+        1,
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "brace-style": [
+        "error",
+        "1tbs",
+        {
+          "allowSingleLine": false
+        }
+      ],
+      "space-before-blocks": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": 1,
+      "no-restricted-imports": [
+        "error",
+        {
+          "paths": [
+            {
+              "name": "styled-components",
+              "message": "Please import from styled-components/macro."
+            }
+          ],
+          "patterns": [
+            "!styled-components/macro"
+          ]
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "runner": "stylelint",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/src/**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "babel-plugin-macros": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.12.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "jest-runner-stylelint": "^2.3.7",
+    "lint-staged": "^12.3.7",
+    "npm-run-all": "^4.1.5",
+    "postcss-scss": "^4.0.3",
+    "postcss-syntax": "^0.36.2",
+    "prettier": "^2.6.1",
+    "stylelint": "^14.6.1",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --rule 'no-console: [error, { allow: [warn, error, table] }]'",
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
